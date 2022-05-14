@@ -3,7 +3,7 @@
 This is a PyTorch implementation of the Transformer MDA model
 
 
-A new multi-sequence to sequence framework uses the self-attention mechanism, instead of the convolution operation or the recurrent structure, and achieves the peak performance on the task of generation dialgues using Ubuntu Corpus, Cornell Movie and DailyDialog for Embeding metrics, BLEU Score and Perplexity.
+This is a multi-turn chatbot project using the a new multi-sequence to sequence framework uses the self-attention mechanism, instead of the convolution operation or the recurrent structure, and achieves the peak performance on the task of generation dialgues using Ubuntu Corpus, Cornell Movie and DailyDialog for Embeding metrics, BLEU Score and Perplexity compare to HRED, VHRED, VHCR, HRAN et ReCoSa.
 
 > To learn more about self-attention mechanism, you could read "[A Structured Self-attentive Sentence Embedding](https://arxiv.org/abs/1703.03130)".
 
@@ -82,10 +82,6 @@ python train.py -data_pkl ./bpe_deen/bpe_vocab.pkl -train_path ./bpe_deen/deen-t
   - default parameter and optimizer settings
   - label smoothing 
   - target embedding / pre-softmax linear layer weight sharing. 
-
-- Elapse per epoch (on NVIDIA GTX):
-  - Training set: 7 days
-  - Validation set: 2.011 minutes
   
 ---
 # TODO
@@ -95,3 +91,13 @@ python train.py -data_pkl ./bpe_deen/bpe_vocab.pkl -train_path ./bpe_deen/deen-t
 # Acknowledgement
 - The byte pair encoding parts are borrowed from [subword-nmt](https://github.com/rsennrich/subword-nmt/).
 - The project structure, some scripts and the dataset preprocessing steps are heavily borrowed from (https://github.com/hyunwoongko/transformer).
+
+
+### References
+
+<a id="1">[1]</a> Zhang, H., Lan, Y., Pang, L., Guo, J., & Cheng, X. (2019). Recosa: Detecting the relevant contexts with self-attention for multi-turn dialogue generation. *arXiv preprint arXiv:1907.05339*. ([https://arxiv.org/abs/1907.05339](https://arxiv.org/abs/1907.05339))
+
+<a id="2">[2]</a> Li, Y., Su, H., Shen, X., Li, W., Cao, Z., & Niu, S. (2017). Dailydialog: A manually labelled multi-turn dialogue dataset. *arXiv preprint arXiv:1710.03957*. ([https://arxiv.org/abs/1710.03957](https://arxiv.org/abs/1710.03957))
+
+<a id="7">[7]</a> https://parl.ai/docs/index.html
+
