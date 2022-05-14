@@ -1,0 +1,16 @@
+PAD_WORD = '<blank>'
+UNK_WORD = '<unk>'
+BOS_WORD = '<s>'
+EOS_WORD = '</s>'
+EOU_UTTI = '__eou__'
+"Anticipation""Surprise" , "Joy_Sadness"   , "Trust_Disgust" , "Fear_Anger"
+
+Anticipation= '<anticipation>'
+Surprise= '<surprise>'
+Joy= '<joy>'
+Sadness= '<sadness>'
+Trust= '<trust>'
+Disgust= '<disgust>'
+Fear= '<fear>'
+Anger= '<anger>'
+No= '<no>'
