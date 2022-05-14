@@ -3,7 +3,7 @@
 This is a PyTorch implementation of the Transformer MDA model
 
 
-A novel multi sequence to sequence framework utilizes the **self-attention mechanism**, instead of Convolution operation or Recurrent structure, and achieve the state-of-the-art performance on **WMT 2014 English-to-German translation task**. (2017/06/12)
+A new multi-sequence to sequence framework uses the self-attention mechanism, instead of the convolution operation or the recurrent structure, and achieves the peak performance on the task of generation dialgues using Ubuntu Corpus, Cornell Movie and DailyDialog for Embeding metrics, BLEU Score and Perplexity.
 
 > To learn more about self-attention mechanism, you could read "[A Structured Self-attentive Sentence Embedding](https://arxiv.org/abs/1703.03130)".
 
@@ -15,11 +15,6 @@ A novel multi sequence to sequence framework utilizes the **self-attention mecha
 The project support training and translation with trained model now.
 
 Note that this project is still a work in progress.
-
-**BPE related parts are not yet fully tested.**
-
-
-If there is any suggestion or error, feel free to fire an issue to let me know. :)
 
 
 # Requirement
@@ -33,10 +28,6 @@ If there is any suggestion or error, feel free to fire an issue to let me know. 
 
 
 # Usage
-
-## WMT'16 Multimodal Translation: de-en
-
-An example of training for the WMT'16 Multimodal Translation task (http://www.statmt.org/wmt16/multimodal-task.html).
 
 ### 0) Download the spacy language model.
 ```bash
