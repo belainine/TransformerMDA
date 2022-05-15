@@ -50,8 +50,6 @@ python train.py -data_pkl m30k_deen_shr.pkl -log m30k_deen_shr -embs_share_weigh
 ```bash
 python translate.py -data_pkl m30k_deen_shr.pkl -model trained.chkpt -output prediction.txt
 ```
-
-## [(WIP)] WMT'17 Multimodal Translation: em-de w/ BPE 
 ### 1) Download and preprocess the data with bpe:
 
 > Since the interfaces is not unified, you need to switch the main function call from `main_wo_bpe` to `main`.
