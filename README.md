@@ -8,7 +8,7 @@ This is a multi-turn chatbot project using the a new multi-sequence to sequence 
 > To learn more about self-attention mechanism, you could read "[A Structured Self-attentive Sentence Embedding](https://arxiv.org/abs/1703.03130)".
 
 <p align="center">
-<img src="http://imgur.com/1krF2R6.png" width="250">
+<img src="https://github.com/belainine/TransformerMDA/blob/master/MDA.jpg" width="250">
 </p>
 
 
