@@ -32,6 +32,7 @@ The project support training and translation with trained model now.
 # conda install -c conda-forge spacy 
 python -m spacy download en
 python -m spacy download de
+python -m spacy download fr
 ```
 
 ### 1) Preprocess the data with torchtext and spacy.
