@@ -14,8 +14,6 @@ This is a multi-turn chatbot project using the a new multi-sequence to sequence 
 
 The project support training and translation with trained model now.
 
-Note that this project is still a work in progress.
-
 
 # Requirement
 - python 3.4+
@@ -64,17 +62,10 @@ python train.py -data_pkl ./bpe_deen/bpe_vocab.pkl -train_path ./bpe_deen/deen-t
 ```
 
 ### 3) Test the model (not ready)
-- TODO:
-	- Load vocabulary.
-	- Perform decoding after the translation.
+- python translate.py -data_pkl m30k_deen_shr.pkl -model trained.chkpt -output prediction.txt
 ---
 # Performance
 ## Training
-
-<p align="center">
-<img src="https://imgur.com/rKeP1bb.png" width="400">
-<img src="https://imgur.com/9je3X6U.png" width="400">
-</p>
 
 - Parameter settings:
   - default parameter and optimizer settings
@@ -82,7 +73,7 @@ python train.py -data_pkl ./bpe_deen/bpe_vocab.pkl -train_path ./bpe_deen/deen-t
   - target embedding / pre-softmax linear layer weight sharing. 
   
 ---
-# TODO
+# Eval
   - Evaluation on the generated text.
   - Attention weight plot.
 ---
