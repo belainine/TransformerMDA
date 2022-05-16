@@ -24,6 +24,10 @@ The project support training and translation with trained model now.
 - dill
 - numpy
 
+## Corpus
+- [DailyDialog](http://www.aclweb.org/anthology/I17-1099)
+- [Ubuntu](https://arxiv.org/abs/1506.08909)
+- [Cornell Movie](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html)
 
 # Usage
 
