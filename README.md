@@ -95,11 +95,11 @@ python train.py -data_pkl ./bpe_deen/bpe_vocab.pkl -train_path ./bpe_deen/deen-t
 
 ### References
 
-[<a id="1">[1]</a> Zhang, H., Lan, Y., Pang, L., Guo, J., & Cheng, X. (2019). Recosa: Detecting the relevant contexts with self-attention for multi-turn dialogue generation. *arXiv preprint arXiv:1907.05339*. https://arxiv.org/abs/1907.05339](https://arxiv.org/abs/1907.05339)
+[- Zhang, H., Lan, Y., Pang, L., Guo, J., & Cheng, X. (2019). Recosa: Detecting the relevant contexts with self-attention for multi-turn dialogue generation. *arXiv preprint arXiv:1907.05339*. https://arxiv.org/abs/1907.05339](https://arxiv.org/abs/1907.05339)
 
-[<a id="2">[2]</a> Li, Y., Su, H., Shen, X., Li, W., Cao, Z., & Niu, S. (2017). Dailydialog: A manually labelled multi-turn dialogue dataset. *arXiv preprint arXiv:1710.03957*. https://arxiv.org/abs/1710.03957](https://arxiv.org/abs/1710.03957)
+[- Li, Y., Su, H., Shen, X., Li, W., Cao, Z., & Niu, S. (2017). Dailydialog: A manually labelled multi-turn dialogue dataset. *arXiv preprint arXiv:1710.03957*. https://arxiv.org/abs/1710.03957](https://arxiv.org/abs/1710.03957)
 
-<a id="7">[7]</a> https://parl.ai/docs/index.html
+- [https://parl.ai/docs/index.html](https://arxiv.org/abs/1706.03762)
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 - [End-to-End Dialogue Generation Using a Single Encoder and a Decoder Cascade With a Multidimension Attention Mechanism,](https://ieeexplore.ieee.org/abstract/document/9723498)
 - [A Neural Conversational Model](https://arxiv.org/abs/1506.05869)
