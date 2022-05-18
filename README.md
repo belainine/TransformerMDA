@@ -95,9 +95,9 @@ python train.py -data_pkl ./bpe_deen/bpe_vocab.pkl -train_path ./bpe_deen/deen-t
 
 ### References
 
-[- Zhang, H., Lan, Y., Pang, L., Guo, J., & Cheng, X. (2019). Recosa: Detecting the relevant contexts with self-attention for multi-turn dialogue generation. *arXiv preprint arXiv:1907.05339*. https://arxiv.org/abs/1907.05339](https://arxiv.org/abs/1907.05339)
+- [Zhang, H., Lan, Y., Pang, L., Guo, J., & Cheng, X. (2019). Recosa: Detecting the relevant contexts with self-attention for multi-turn dialogue generation. *arXiv preprint arXiv:1907.05339*. https://arxiv.org/abs/1907.05339](https://arxiv.org/abs/1907.05339)
 
-[- Li, Y., Su, H., Shen, X., Li, W., Cao, Z., & Niu, S. (2017). Dailydialog: A manually labelled multi-turn dialogue dataset. *arXiv preprint arXiv:1710.03957*. https://arxiv.org/abs/1710.03957](https://arxiv.org/abs/1710.03957)
+- [Li, Y., Su, H., Shen, X., Li, W., Cao, Z., & Niu, S. (2017). Dailydialog: A manually labelled multi-turn dialogue dataset. *arXiv preprint arXiv:1710.03957*. https://arxiv.org/abs/1710.03957](https://arxiv.org/abs/1710.03957)
 
 - [https://parl.ai/docs/index.html](https://arxiv.org/abs/1706.03762)
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
