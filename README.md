@@ -102,7 +102,7 @@ python train.py -data_pkl ./bpe_deen/bpe_vocab.pkl -train_path ./bpe_deen/deen-t
 <a id="7">[7]</a> https://parl.ai/docs/index.html
 - [Attention Is All You Need] (https://arxiv.org/abs/1706.03762)
 - [End-to-End Dialogue Generation Using a Single Encoder and a Decoder Cascade With a Multidimension Attention Mechanism,](https://ieeexplore.ieee.org/abstract/document/9723498)
-- [A Neural Conversational Model](https://arxiv.org/abs/1506.05869)
+- [A Neural Conversational Model] (https://arxiv.org/abs/1506.05869)
 - [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/abs/1508.04025)
 - [A Diversity-Promoting Objective Function for Neural Conversation Models](https://arxiv.org/pdf/1510.03055.pdf)
 - [seq2seq-translation.ipynb](https://github.com/spro/practical-pytorch/blob/master/seq2seq-translation/seq2seq-translation.ipynb)
