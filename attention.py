@@ -12,6 +12,7 @@ import matplotlib.ticker as ticker
 import numpy as np
 import torch
 import torch.nn.functional as F
+# example of attention
 enc_slf_attn=torch.tensor([[[[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
            0.0000],
           [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
