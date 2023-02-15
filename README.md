@@ -92,7 +92,18 @@ python train.py -data_pkl ./bpe_deen/bpe_vocab.pkl -train_path ./bpe_deen/deen-t
 - The byte pair encoding parts are borrowed from [subword-nmt](https://github.com/rsennrich/subword-nmt/).
 - The project structure, some scripts and the dataset preprocessing steps are heavily borrowed from (https://github.com/hyunwoongko/transformer).
 
-
+## Citation
+```
+@inproceedings{belainine2022multi,
+  title={Multi-dimension attention for multi-turn dialog generation (student abstract)},
+  author={Belainine, Billal and Sadat, Fatiha and Boukadoum, Mounir},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={36},
+  number={11},
+  pages={12909--12910},
+  year={2022}
+}
+```
 ### References
 
 - [Zhang, H., Lan, Y., Pang, L., Guo, J., & Cheng, X. (2019). Recosa: Detecting the relevant contexts with self-attention for multi-turn dialogue generation. *arXiv preprint arXiv:1907.05339*. https://arxiv.org/abs/1907.05339](https://arxiv.org/abs/1907.05339)
