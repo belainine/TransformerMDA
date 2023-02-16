@@ -92,12 +92,13 @@ To test and reproduce the result
 ---
 # Eval
   - Evaluation on the generated text.
+  python TransformerMDA/Translator.py corpus_name
  ```bash
- python sacreBlueTest1.py
+ python sacreBlueTest1.py corpus_name
   ```
   - Attention weight plot.
 ```bash
- python showAttention.py
+ python showAttention.py corpus_name
  ```
 ---
 # Acknowledgement
