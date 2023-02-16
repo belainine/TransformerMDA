@@ -92,7 +92,11 @@ To test and reproduce the result
 ---
 # Eval
   - Evaluation on the generated text.
+  ```
+  ```
   - Attention weight plot.
+ ``` python showAttention.py
+ ```
 ---
 # Acknowledgement
 - The byte pair encoding parts are borrowed from [subword-nmt](https://github.com/rsennrich/subword-nmt/).
