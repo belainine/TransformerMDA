@@ -93,7 +93,7 @@ To test and reproduce the result
 # Eval
   - Evaluation on the generated text.
   ```bash
-  python TransformerMDA/Translator.py corpus_name
+  python TransformerMDA/translate.py corpus_name
    ```
    - Test Blue score
  ```bash
