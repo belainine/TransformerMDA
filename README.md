@@ -56,6 +56,9 @@ python train.py -data_pkl m30k_deen_shr.pkl -log m30k_deen_shr -embs_share_weigh
 ```
 
 ### 3) Test the model
+
+To test and reproduce the result
+
 ```bash
 python translate.py -data_pkl m30k_deen_shr.pkl -model trained.chkpt -output prediction.txt
 ```
