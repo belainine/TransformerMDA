@@ -31,6 +31,7 @@ The project support training and translation with trained model now.
 - gensim
 
 ## Corpus
+we use three corpus of dialog:
 - [DailyDialog](http://www.aclweb.org/anthology/I17-1099)
 - [Ubuntu](https://arxiv.org/abs/1506.08909)
 - [Cornell Movie](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html)
@@ -57,7 +58,7 @@ python train.py -data_pkl m30k_deen_shr.pkl -log m30k_deen_shr -embs_share_weigh
 
 ### 3) Test the model
 
-To test and reproduce the result
+To test and reproduce the result.
 
 ```bash
 python translate.py -data_pkl m30k_deen_shr.pkl -model trained.chkpt -output prediction.txt
@@ -71,11 +72,13 @@ python preprocess.py -raw_dir /tmp/raw_deen -data_dir ./bpe_deen -save_data bpe_
 ```
 
 ### 2) Train the model
+To train this model.
 ```bash
 python train.py -data_pkl ./bpe_deen/bpe_vocab.pkl -train_path ./bpe_deen/deen-train -val_path ./bpe_deen/deen-val -log deen_bpe -embs_share_weight -proj_share_weight -label_smoothing -save_model trained -b 256 -warmup 128000 -epoch 400
 ```
 
 ### 3) Test the model
+To test and reproduce the result
 - python translate.py -data_pkl m30k_deen_shr.pkl -model trained.chkpt -output prediction.txt
 ---
 # Performance
