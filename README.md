@@ -92,7 +92,8 @@ To test and reproduce the result
 ---
 # Eval
   - Evaluation on the generated text.
-  ```
+ ```bash
+ python sacreBlueTest1.py
   ```
   - Attention weight plot.
 ```bash
