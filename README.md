@@ -92,7 +92,10 @@ To test and reproduce the result
 ---
 # Eval
   - Evaluation on the generated text.
+  ```bash
   python TransformerMDA/Translator.py corpus_name
+   ```
+   - Test Blue score
  ```bash
  python sacreBlueTest1.py corpus_name
   ```
