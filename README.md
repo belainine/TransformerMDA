@@ -95,7 +95,8 @@ To test and reproduce the result
   ```
   ```
   - Attention weight plot.
- ``` python showAttention.py
+```bash
+ python showAttention.py
  ```
 ---
 # Acknowledgement
